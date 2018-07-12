@@ -16,7 +16,7 @@ public class HomeTest {
 
     @BeforeTest
     public static void openBrowser() {
-        System.setProperty("webdriver.chrome.driver", "/AutoTest/first-test/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/andersen/java_autotest/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://yandex.ru");
     }
