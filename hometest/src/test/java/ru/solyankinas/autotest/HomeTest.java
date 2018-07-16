@@ -26,7 +26,7 @@ public class HomeTest {
         String textSearch = "Погода Пенза";
         driver.findElement(By.cssSelector(("#text"))).sendKeys(textSearch);
         driver.findElement(By.cssSelector(".search2__button button")).click();
-        String textFirstLink = driver.findElement(By.cssSelector("[href='https://yandex.ru/pogoda/penza?from=serp_title']")).getText();
+        String textFirstLink = driver.findElement(By.cssSelector("a[accesskey='1']")).getText();
         String textComparison = "Погода";
         Assert.assertTrue(textFirstLink.contains(textComparison));
     }

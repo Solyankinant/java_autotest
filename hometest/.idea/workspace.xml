@@ -27,11 +27,10 @@
       <file leaf-file-name="HomeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/HomeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="466">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <element signature="e#1183#1184#0" expanded="false" />
-                <element signature="e#1212#1213#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,9 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,6 +126,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -474,22 +473,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeTest - 2018.07.12 at 13h 46m 05s.xml">
-      <configuration name="HomeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeTest - 2018.07.12 at 13h 50m 35s.xml">
-      <configuration name="HomeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeTest - 2018.07.12 at 13h 51m 34s.xml">
-      <configuration name="HomeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HomeTest - 2018.07.12 at 13h 51m 58s.xml">
-      <configuration name="HomeTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HomeTest - 2018.07.12 at 13h 59m 23s.xml">
       <configuration name="HomeTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="HomeTest - 2018.07.12 at 14h 34m 38s.xml">
+      <configuration name="HomeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeTest - 2018.07.12 at 14h 37m 29s.xml">
+      <configuration name="HomeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeTest - 2018.07.16 at 09h 25m 56s.xml">
+      <configuration name="HomeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeTest - 2018.07.16 at 09h 36m 56s.xml">
+      <configuration name="HomeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeTest - 2018.07.16 at 09h 38m 02s.xml">
+      <configuration name="HomeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeTest - 2018.07.16 at 09h 41m 12s.xml">
+      <configuration name="HomeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeTest - 2018.07.16 at 09h 43m 42s.xml">
+      <configuration name="HomeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeTest - 2018.07.16 at 09h 49m 05s.xml">
+      <configuration name="HomeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HomeTest - 2018.07.16 at 09h 51m 48s.xml">
       <configuration name="HomeTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -512,7 +523,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -549,11 +560,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/HomeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="561">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding>
-            <element signature="e#1183#1184#0" expanded="false" />
-            <element signature="e#1212#1213#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,11 +578,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/HomeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="612">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#1183#1184#0" expanded="false" />
-            <element signature="e#1212#1213#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/HomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
