@@ -15,7 +15,7 @@ public class HomeTest {
 
     @BeforeTest
     public static void openBrowser() {
-        System.setProperty("webdriver.chrome.driver", "/andersen/java_autotest/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://yandex.ru");
     }
@@ -24,7 +24,7 @@ public class HomeTest {
     public void fieldSeach() {
         String textSearch = "Погода Пенза";
         driver.findElement(By.cssSelector(("#text"))).sendKeys(textSearch);
-        driver.findElement(By.cssSelector(".search2__button button")).click();
+        driver.findElement(By.cssSelector("form[role='search'] button[type='submit']")).click();
         String textFirstLink = driver.findElement(By.cssSelector("a[accesskey='1']")).getText();
         String textComparison = "Погода";
         Assert.assertTrue(textFirstLink.contains(textComparison));
