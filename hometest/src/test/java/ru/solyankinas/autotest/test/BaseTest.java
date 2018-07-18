@@ -10,13 +10,13 @@ public class BaseTest {
     protected  ApplicationManager appManager = new ApplicationManager();
 
     @BeforeTest
-    public static void openBrowser() {
-        ApplicationManager.startBrowser();
+    public void openBrowser() {
+        appManager.startBrowser();
     }
 
     @AfterTest
-    public static void exitBrowser() {
-        ApplicationManager.stopBrowser();
+    public void exitBrowser() {
+        appManager.stopBrowser();
     }
 
 }

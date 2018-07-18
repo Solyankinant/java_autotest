@@ -8,10 +8,11 @@ public class HomeTest extends BaseTest {
 
     @Test
     public void fieldSeach() {
-        appManager.inputTextSearch("Погода Пенза");
-        appManager.clickButtonSearch();
+        appManager.getPageSearch().inputTextSearch("Погода Пенза");
+        appManager.getPageSearch().clickButtonSearch();
         String textComparison = "Погода";
-        Assert.assertTrue(appManager.getTextFirstLink().contains(textComparison));
+        String textFirstLink = appManager.getFirstPage().getTextFirstLink();
+        Assert.assertTrue(textFirstLink.contains(textComparison));
     }
 
 }
