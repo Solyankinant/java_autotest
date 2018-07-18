@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     ChromeDriver driver;
 
-    private FirstPage firstPage;
+    private ResultSearch resultSearch;
     private PageSearch pageSearch;
 
     public  void startBrowser() {
@@ -16,8 +16,8 @@ public class ApplicationManager {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         pageSearch = new PageSearch(driver);
-        firstPage = new FirstPage(driver);
-        firstPage.driver.get("https://yandex.ru");
+        resultSearch = new ResultSearch(driver);
+        resultSearch.driver.get("https://yandex.ru");
     }
 
     public void stopBrowser() {
@@ -28,7 +28,7 @@ public class ApplicationManager {
         return pageSearch;
     }
 
-    public FirstPage getFirstPage() {
-        return firstPage;
+    public ResultSearch getResultSearch() {
+        return resultSearch;
     }
 }

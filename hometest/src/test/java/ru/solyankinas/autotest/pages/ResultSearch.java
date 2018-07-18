@@ -4,12 +4,12 @@ package ru.solyankinas.autotest.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class FirstPage {
+public class ResultSearch {
     By TextFirstLink = By.cssSelector("a[accesskey='1']");
 
     protected ChromeDriver driver;
 
-    public FirstPage(ChromeDriver driver){
+    public ResultSearch(ChromeDriver driver){
         this.driver = driver;
     }
 

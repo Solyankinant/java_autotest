@@ -11,7 +11,7 @@ public class HomeTest extends BaseTest {
         appManager.getPageSearch().inputTextSearch("Погода Пенза");
         appManager.getPageSearch().clickButtonSearch();
         String textComparison = "Погода";
-        String textFirstLink = appManager.getFirstPage().getTextFirstLink();
+        String textFirstLink = appManager.getResultSearch().getTextFirstLink();
         Assert.assertTrue(textFirstLink.contains(textComparison));
     }
 
