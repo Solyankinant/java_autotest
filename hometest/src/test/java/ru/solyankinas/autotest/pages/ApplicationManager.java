@@ -6,18 +6,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    ChromeDriver driver;
+    protected ChromeDriver driver;
 
     private ResultSearch resultSearch;
     private PageSearch pageSearch;
 
-    public  void startBrowser() {
+    public void startBrowser() {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         pageSearch = new PageSearch(driver);
         resultSearch = new ResultSearch(driver);
-        resultSearch.driver.get("https://yandex.ru");
+        pageSearch.openSearchPage("https://yandex.ru/");
     }
 
     public void stopBrowser() {

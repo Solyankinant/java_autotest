@@ -15,6 +15,11 @@ public class PageSearch {
         this.driver = driver;
     }
 
+    public void openSearchPage(String url) {
+
+        driver.get(url);
+    }
+
     public void clickButtonSearch() {
         driver.findElement(ButtonSearch).click();
     }

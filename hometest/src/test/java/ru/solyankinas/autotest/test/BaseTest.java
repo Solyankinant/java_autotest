@@ -7,7 +7,8 @@ import ru.solyankinas.autotest.pages.ApplicationManager;
 
 public class BaseTest {
 
-    protected  ApplicationManager appManager = new ApplicationManager();
+
+    protected ApplicationManager appManager = new ApplicationManager();
 
     @BeforeTest
     public void openBrowser() {
@@ -18,5 +19,6 @@ public class BaseTest {
     public void exitBrowser() {
         appManager.stopBrowser();
     }
+
 
 }
