@@ -32,8 +32,9 @@ public class BaseTest {
         appManager = new ApplicationManager(driver);
         appManager.pageSearch = new PageSearch(driver);
         appManager.resultSearch = new ResultSearch(driver);
-        appManager.pageSearch.openSearchPage("https://yandex.ru/");
+        appManager.pageSearch.openSearchPage();
     }
+
 
     public void stopBrowser() {
         driver.quit();
