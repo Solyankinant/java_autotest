@@ -37,6 +37,10 @@ public class PageSearch {
         return list;
     }
 
+    public String[] getStringMore() {
+        return listMore().split("(?=\\p{Lu})");
+    }
+
     public void openSearchPage (){
         driver.get(URL);
     }

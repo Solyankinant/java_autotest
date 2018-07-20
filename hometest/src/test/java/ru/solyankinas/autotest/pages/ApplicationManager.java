@@ -22,7 +22,7 @@ public class ApplicationManager {
         return resultSearch;
     }
 
-    public PageLocation pageLocation(){
+    public PageLocation getPageLocation(){
         return pageLocation;
     }
 }
