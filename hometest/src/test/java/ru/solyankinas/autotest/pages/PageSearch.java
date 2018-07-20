@@ -41,6 +41,12 @@ public class PageSearch {
         return listMore().split("(?=\\p{Lu})");
     }
 
+    public void comparsionMore(String[] listMore, String[] listMoreSecondCity) {
+        for (int i = 0; i < listMore.length; i++){
+            listMore[i].equals(listMoreSecondCity[i]);
+        }
+    }
+
     public void openSearchPage (){
         driver.get(URL);
     }

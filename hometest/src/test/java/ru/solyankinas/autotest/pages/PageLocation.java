@@ -11,7 +11,7 @@ public class PageLocation {
     protected WebDriver driver;
     @FindBy(css = "#city__front-input")
     protected  WebElement fildInputLocation;
-    @FindBy(xpath = "//li[2]")
+    @FindBy(xpath = "//li[1]")
     protected  WebElement linkCity;
 
 
@@ -21,24 +21,12 @@ public class PageLocation {
         this.driver = driver;
     }
 
-    public void fildInputLocation() {
-        fildInputLocation.clear();
-        fildInputLocation.click();
-    }
-
     public void inputCity(String City) {
-        fildInputLocation.sendKeys(City);
-        //fildInputLocation.click();
-        //fildInputLocation.sendKeys(Keys.ENTER);
-        linkCity.click();
-    }
-    public void enterInputCity(){
         fildInputLocation.click();
-        fildInputLocation.sendKeys(Keys.ENTER);
+        fildInputLocation.clear();
+        fildInputLocation.sendKeys(City);
+        linkCity.click();
+        //fildInputLocation.sendKeys(Keys.ENTER);
     }
-
-
-
-
 
 }
