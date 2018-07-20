@@ -13,13 +13,11 @@ public class PageSearch {
     By buttonSearch = By.cssSelector("form[role='search'] button[type='submit']");
     By fieldSearch = By.cssSelector("#text");
     @FindBy(css = "[data-statlog='head.region.setup']")
-    private WebElement location;
+    protected  WebElement location;
     @FindBy(css = "[data-statlog='tabs.more']")
-    private WebElement linkMore;
-    @FindBy(css = ".home-tabs__more-top")
-    private WebElement listMore;
-    @FindBy(css = ".home-tabs__more-bottom")
-    private WebElement bottomListMore;
+    protected  WebElement linkMore;
+    @FindBy(css = ".home-tabs__more")
+    protected  WebElement listMore;
 
     private static  final String URL  = "https://yandex.ru/";
 
@@ -36,11 +34,6 @@ public class PageSearch {
     public String listMore(){
         String list;
         list = listMore.getText();
-        return list;
-    }
-    public String bottomListMore(){
-        String list;
-        list = bottomListMore.getText();
         return list;
     }
 

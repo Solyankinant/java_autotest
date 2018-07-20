@@ -14,14 +14,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LocationTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LocationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/LocationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,15 +55,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageLocation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PageLocation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageLocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,12 +70,12 @@
       <file leaf-file-name="PageSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="612">
+              <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -609,34 +605,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LocationTest - 2018.07.20 at 12h 34m 58s.xml">
+    <history-entry file="LocationTest - 2018.07.20 at 13h 23m 31s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 12h 36m 53s.xml">
+    <history-entry file="LocationTest - 2018.07.20 at 13h 25m 46s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 12h 40m 14s.xml">
+    <history-entry file="LocationTest - 2018.07.20 at 13h 26m 57s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 12h 41m 03s.xml">
+    <history-entry file="LocationTest - 2018.07.20 at 13h 27m 28s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 12h 42m 43s.xml">
+    <history-entry file="LocationTest - 2018.07.20 at 13h 27m 54s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 12h 44m 44s.xml">
+    <history-entry file="LocationTest - 2018.07.20 at 13h 28m 35s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 12h 45m 38s.xml">
+    <history-entry file="LocationTest - 2018.07.20 at 13h 30m 34s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 12h 52m 31s.xml">
+    <history-entry file="LocationTest - 2018.07.20 at 13h 31m 34s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 12h 58m 04s.xml">
+    <history-entry file="LocationTest - 2018.07.20 at 13h 34m 51s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 12h 58m 39s.xml">
+    <history-entry file="LocationTest - 2018.07.20 at 13h 38m 06s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -902,8 +898,8 @@
           <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1155,32 +1151,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="612">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/LocationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
