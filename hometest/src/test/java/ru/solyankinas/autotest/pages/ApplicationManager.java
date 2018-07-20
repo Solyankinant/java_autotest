@@ -8,6 +8,7 @@ public class ApplicationManager {
 
     public ResultSearch resultSearch;
     public PageSearch pageSearch;
+    public PageLocation pageLocation;
 
     public ApplicationManager(ChromeDriver driver) {
     this.driver = driver;
@@ -19,5 +20,9 @@ public class ApplicationManager {
 
     public ResultSearch getResultSearch() {
         return resultSearch;
+    }
+
+    public PageLocation pageLocation(){
+        return pageLocation;
     }
 }
