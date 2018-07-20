@@ -14,6 +14,12 @@ public class PageSearch {
     By fieldSearch = By.cssSelector("#text");
     @FindBy(css = "[data-statlog='head.region.setup']")
     private WebElement location;
+    @FindBy(css = "[data-statlog='tabs.more']")
+    private WebElement linkMore;
+    @FindBy(css = ".home-tabs__more-top")
+    private WebElement listMore;
+    @FindBy(css = ".home-tabs__more-bottom")
+    private WebElement bottomListMore;
 
     private static  final String URL  = "https://yandex.ru/";
 
@@ -22,6 +28,20 @@ public class PageSearch {
     public PageSearch(ChromeDriver driver){
         PageFactory .initElements(driver, this);
         this.driver = driver;
+    }
+
+    public void clickMore() {
+        linkMore.click();
+    }
+    public String listMore(){
+        String list;
+        list = listMore.getText();
+        return list;
+    }
+    public String bottomListMore(){
+        String list;
+        list = bottomListMore.getText();
+        return list;
     }
 
     public void openSearchPage (){

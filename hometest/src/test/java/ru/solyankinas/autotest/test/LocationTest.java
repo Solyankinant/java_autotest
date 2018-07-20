@@ -13,8 +13,8 @@ public class LocationTest extends BaseTest {
         appManager.pageLocation.fildInputLocation();
         appManager.pageLocation.inputCity("Милан");
         //appManager.pageLocation.enterInputCity();
-        appManager.pageLocation.clickMore();
-        String [] listTopMore = appManager.pageLocation.listMore().split("\n");
+        appManager.pageSearch.clickMore();
+        String [] listTopMore = appManager.pageSearch.listMore().split("\n");
         /*for (int i = 0; i <17.; i++){
             System.out.println("Milan = " + listTopMore[i]);
         }*/
@@ -29,9 +29,9 @@ public class LocationTest extends BaseTest {
         appManager.pageSearch.clickLocation();
         appManager.pageLocation.fildInputLocation();
         appManager.pageLocation.inputCity("Прага");
-        appManager.pageLocation.clickMore();
+        appManager.pageSearch.clickMore();
         //System.out.println("Список Прага = " + appManager.pageLocation.listMore());
-        String [] listBottomMore = appManager.pageLocation.listMore().split("\n");
+        String [] listBottomMore = appManager.pageSearch.listMore().split("\n");
         for (int i = 0; i < 17; i++){
              //System.out.println("Praga = " + listBottomMore[i]);
             listTopMore[i].contains(listBottomMore[i]);

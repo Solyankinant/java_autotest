@@ -17,7 +17,7 @@
       <file leaf-file-name="LocationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/LocationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="544">
               <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,14 +60,12 @@
       <file leaf-file-name="PageLocation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageLocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="500">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1266#1267#0" expanded="true" />
-                <element signature="e#1297#1298#0" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,10 +74,12 @@
       <file leaf-file-name="PageSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="517">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,11 +109,11 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/HomeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/FirstPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/ResultSearch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageSearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/LocationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageLocation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/LocationTest.java" />
       </list>
     </option>
   </component>
@@ -609,12 +609,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LocationTest - 2018.07.20 at 12h 31m 01s.xml">
-      <configuration name="LocationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 12h 31m 57s.xml">
-      <configuration name="LocationTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LocationTest - 2018.07.20 at 12h 34m 58s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
@@ -637,6 +631,12 @@
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LocationTest - 2018.07.20 at 12h 52m 31s.xml">
+      <configuration name="LocationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LocationTest - 2018.07.20 at 12h 58m 04s.xml">
+      <configuration name="LocationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LocationTest - 2018.07.20 at 12h 58m 39s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -902,6 +902,8 @@
           <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1153,31 +1155,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="517">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageLocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="500">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/LocationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="544">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />

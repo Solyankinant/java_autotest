@@ -19,12 +19,7 @@ public class PageLocation {
     private WebElement fildInputLocation;
     @FindBy(xpath = "//li[2]")
     private WebElement linkCity;
-    @FindBy(css = "[data-statlog='tabs.more']")
-    private WebElement linkMore;
-    @FindBy(css = ".home-tabs__more-top")
-    private WebElement listMore;
-    @FindBy(css = ".home-tabs__more-bottom")
-    private WebElement bottomListMore;
+
 
 
     public PageLocation(WebDriver driver) {
@@ -45,19 +40,7 @@ public class PageLocation {
         fildInputLocation.sendKeys(Keys.ENTER);
     }
 
-    public void clickMore() {
-        linkMore.click();
-    }
-    public String listMore(){
-        String list;
-        list = listMore.getText();
-        return list;
-    }
-    public String bottomListMore(){
-        String list;
-        list = bottomListMore.getText();
-        return list;
-    }
+
 
 
 
