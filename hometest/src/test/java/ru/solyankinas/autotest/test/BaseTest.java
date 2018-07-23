@@ -18,7 +18,7 @@ public class BaseTest {
 
     @BeforeTest
     public void openBrowser() {
-        startBrowser();
+        startChromeBrowser();
     }
 
     @AfterTest
@@ -26,7 +26,7 @@ public class BaseTest {
         stopBrowser();
     }
 
-    public void startBrowser() {
+    private void startChromeBrowser() {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -38,7 +38,7 @@ public class BaseTest {
     }
 
 
-    public void stopBrowser() {
+    private void stopBrowser() {
         driver.quit();
     }
 

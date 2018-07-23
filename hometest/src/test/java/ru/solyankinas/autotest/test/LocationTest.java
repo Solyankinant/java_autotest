@@ -7,7 +7,7 @@ public class LocationTest extends BaseTest {
 
 
     @Test
-    public void yandexMore() {
+    public void testLocationYandexFildMore() {
         appManager.getPageSearch().clickLocation();
         appManager.getPageLocation().inputCity("Милан");
         appManager.getPageSearch().clickMore();

@@ -32,14 +32,12 @@ public class PageSearch {
         linkMore.click();
     }
 
-    public String listMore() {
-        String list;
-        list = listMore.getText();
-        return list;
+    public String getListMore() {
+        return listMore.getText();
     }
 
     public String[] getStringMore() {
-        return listMore().split("(?=\\p{Lu})");
+        return getListMore().split("(?=\\p{Lu})");
     }
 
     public void comparsionMore(String[] listMore, String[] listMoreSecondCity) {
