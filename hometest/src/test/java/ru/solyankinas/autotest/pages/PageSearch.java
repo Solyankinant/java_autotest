@@ -13,25 +13,26 @@ public class PageSearch {
     By buttonSearch = By.cssSelector("form[role='search'] button[type='submit']");
     By fieldSearch = By.cssSelector("#text");
     @FindBy(css = "[data-statlog='head.region.setup']")
-    protected  WebElement location;
+    protected WebElement location;
     @FindBy(css = "[data-statlog='tabs.more']")
-    protected  WebElement linkMore;
+    protected WebElement linkMore;
     @FindBy(css = ".home-tabs__more")
-    protected  WebElement listMore;
+    protected WebElement listMore;
 
-    private static  final String URL  = "https://yandex.ru/";
+    private static final String URL = "https://yandex.ru/";
 
     protected WebDriver driver;
 
-    public PageSearch(ChromeDriver driver){
-        PageFactory .initElements(driver, this);
+    public PageSearch(ChromeDriver driver) {
+        PageFactory.initElements(driver, this);
         this.driver = driver;
     }
 
     public void clickMore() {
         linkMore.click();
     }
-    public String listMore(){
+
+    public String listMore() {
         String list;
         list = listMore.getText();
         return list;
@@ -42,12 +43,12 @@ public class PageSearch {
     }
 
     public void comparsionMore(String[] listMore, String[] listMoreSecondCity) {
-        for (int i = 0; i < listMore.length; i++){
+        for (int i = 0; i < listMore.length; i++) {
             listMore[i].equals(listMoreSecondCity[i]);
         }
     }
 
-    public void openSearchPage (){
+    public void openSearchPage() {
         driver.get(URL);
     }
 
@@ -55,7 +56,7 @@ public class PageSearch {
         driver.findElement(buttonSearch).click();
     }
 
-    public void clickLocation(){
+    public void clickLocation() {
         location.click();
     }
 

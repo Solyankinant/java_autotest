@@ -11,7 +11,7 @@ public class ApplicationManager {
     public PageLocation pageLocation;
 
     public ApplicationManager(ChromeDriver driver) {
-    this.driver = driver;
+        this.driver = driver;
     }
 
     public PageSearch getPageSearch() {
@@ -22,7 +22,7 @@ public class ApplicationManager {
         return resultSearch;
     }
 
-    public PageLocation getPageLocation(){
+    public PageLocation getPageLocation() {
         return pageLocation;
     }
 }
