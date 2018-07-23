@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class PageLocation {
     protected WebDriver driver;
-    @FindBy(css = "#city__front-input")
+    @FindBy(id = "city__front-input")
     protected  WebElement fildInputLocation;
     @FindBy(xpath = "//li[1]")
     protected  WebElement linkCity;
@@ -26,7 +26,8 @@ public class PageLocation {
         fildInputLocation.clear();
         fildInputLocation.sendKeys(City);
         linkCity.click();
-        //fildInputLocation.sendKeys(Keys.ENTER);
+
     }
+
 
 }

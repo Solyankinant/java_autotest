@@ -29,7 +29,7 @@ public class BaseTest {
     public void startBrowser() {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         appManager = new ApplicationManager(driver);
         appManager.pageSearch = new PageSearch(driver);
         appManager.resultSearch = new ResultSearch(driver);

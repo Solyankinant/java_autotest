@@ -23,35 +23,8 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/LocationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/HomeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#591#592#0" expanded="true" />
-              </folding>
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,8 +32,8 @@
       <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#322#323#0" expanded="true" />
                 <element signature="e#354#355#0" expanded="true" />
@@ -73,11 +46,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+              <folding>
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PageLocation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageLocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,14 +74,16 @@
       <file leaf-file-name="PageSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="410">
+              <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#950#951#0" expanded="true" />
                 <element signature="e#982#983#0" expanded="true" />
                 <element signature="e#1134#1135#0" expanded="true" />
                 <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,10 +113,10 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/HomeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/FirstPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/ResultSearch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageLocation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageSearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/LocationTest.java" />
       </list>
     </option>
@@ -625,34 +613,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LocationTest - 2018.07.20 at 16h 02m 20s.xml">
+    <history-entry file="LocationTest - 2018.07.23 at 09h 38m 29s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 16h 05m 46s.xml">
+    <history-entry file="LocationTest - 2018.07.23 at 09h 40m 12s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 16h 09m 14s.xml">
+    <history-entry file="LocationTest - 2018.07.23 at 09h 40m 36s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 16h 10m 25s.xml">
+    <history-entry file="LocationTest - 2018.07.23 at 09h 47m 05s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 16h 14m 36s.xml">
+    <history-entry file="LocationTest - 2018.07.23 at 09h 50m 06s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 16h 15m 43s.xml">
+    <history-entry file="LocationTest - 2018.07.23 at 09h 57m 48s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 16h 25m 03s.xml">
+    <history-entry file="LocationTest - 2018.07.23 at 10h 05m 44s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 16h 30m 31s.xml">
+    <history-entry file="LocationTest - 2018.07.23 at 10h 14m 52s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 16h 31m 36s.xml">
+    <history-entry file="LocationTest - 2018.07.23 at 10h 15m 47s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LocationTest - 2018.07.20 at 16h 37m 25s.xml">
+    <history-entry file="LocationTest - 2018.07.23 at 10h 18m 18s.xml">
       <configuration name="LocationTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -708,7 +696,7 @@
         <state relative-caret-position="561">
           <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,7 +714,7 @@
         <state relative-caret-position="612">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -759,8 +747,10 @@
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -770,7 +760,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -798,7 +788,7 @@
         <state relative-caret-position="272">
           <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -816,7 +806,7 @@
         <state relative-caret-position="510">
           <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -834,7 +824,7 @@
         <state relative-caret-position="561">
           <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -852,7 +842,7 @@
         <state relative-caret-position="612">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -870,8 +860,10 @@
         <state relative-caret-position="357">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -906,7 +898,7 @@
         <state relative-caret-position="306">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -921,6 +913,8 @@
             <element signature="e#982#983#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
             <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -938,7 +932,7 @@
         <state relative-caret-position="272">
           <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -956,7 +950,7 @@
         <state relative-caret-position="510">
           <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -974,7 +968,7 @@
         <state relative-caret-position="561">
           <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -992,7 +986,7 @@
         <state relative-caret-position="612">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1025,8 +1019,10 @@
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1036,7 +1032,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1055,7 +1051,7 @@
         <state relative-caret-position="272">
           <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1073,7 +1069,7 @@
         <state relative-caret-position="510">
           <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1091,7 +1087,7 @@
         <state relative-caret-position="561">
           <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1109,7 +1105,7 @@
         <state relative-caret-position="612">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1132,31 +1128,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/HomeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="442">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#322#323#0" expanded="true" />
             <element signature="e#354#355#0" expanded="true" />
@@ -1168,24 +1153,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="410">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#950#951#0" expanded="true" />
             <element signature="e#982#983#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
             <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageLocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="323">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1195,10 +1193,8 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/LocationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
