@@ -39,7 +39,7 @@ public class BaseTest {
 
 
     public void stopBrowser() {
-        //driver.quit();
+        driver.quit();
     }
 
 }
