@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class PageSearch {
 
@@ -40,9 +41,9 @@ public class PageSearch {
         return getListMore().split("(?=\\p{Lu})");
     }
 
-    public void comparsionMore(String[] listMore, String[] listMoreSecondCity) {
-        for (int i = 0; i < listMore.length; i++) {
-            listMore[i].equals(listMoreSecondCity[i]);
+    public void comparsionMore(String[] listMoreFirstCity, String[] listMoreSecondCity) {
+        for (int i = 0; i < listMoreFirstCity.length; i++) {
+            Assert.assertEquals(listMoreSecondCity[i], listMoreFirstCity[i]);
         }
     }
 
