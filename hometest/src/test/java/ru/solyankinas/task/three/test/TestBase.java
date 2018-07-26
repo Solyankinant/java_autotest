@@ -1,10 +1,12 @@
-package ru.solyankinas.task.three;
+package ru.solyankinas.task.three.test;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import ru.solyankinas.task.three.pages.PagePcLopTop;
 import ru.solyankinas.task.three.pages.PageYandexMarket;
+import ru.solyankinas.task.three.pages.YandexNavigationPage;
+import ru.solyankinas.task.three.pages.YandexPage;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,6 +14,8 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     public PageYandexMarket pageYandexMarket;
     public PagePcLopTop pagePcLopTop;
+    public YandexNavigationPage yandexNavigationPage;
+    public YandexPage yandexPage;
     ChromeDriver driver;
 
     @BeforeMethod
@@ -22,7 +26,9 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         pageYandexMarket = new PageYandexMarket(driver);
         pagePcLopTop = new PagePcLopTop(driver);
-        driver.get("https://yandex.ru/");
+        yandexNavigationPage = new YandexNavigationPage(driver);
+        yandexPage = new YandexPage(driver);
+        getYandexPage().openYandex();
     }
 
     @AfterMethod
@@ -36,6 +42,13 @@ public class TestBase {
 
     public PagePcLopTop getPagePcLopTop() {
         return pagePcLopTop;
+    }
+
+    public YandexNavigationPage getYandexNavigationPage(){
+        return yandexNavigationPage;
+    }
+    public YandexPage getYandexPage(){
+        return yandexPage;
     }
 
 }
