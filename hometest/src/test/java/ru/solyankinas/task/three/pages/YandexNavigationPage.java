@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -14,16 +15,26 @@ public class YandexNavigationPage {
     protected WebDriver driver;
 
     By navigation = By.cssSelector("[role=\"navigation\" ] .home-link");
-    @FindBy(css = "[class=\"related-serp__title\"]")
+    @FindBy(css = ".popular .related-serp__title")
     public WebElement elementYandexVideo;
-    @FindBy(css = "[href=\"/collections/user/\"]")
+    @FindBy(css = "a[href=\"/collections/user/\"]")
     public WebElement elementYandexImages;
-    @FindBy (css = "[data-name='Финансы']")
+    @FindBy(css = "[href=\"/politics.html?from=index\"]")
     public WebElement elementYandexNews;
+    @FindBy(css = ".input_air-search-large__control")
+    public WebElement elementYandexMaps;
+    @FindBy(css = "[data-department='Компьютеры']")
+    public WebElement elementYandexMarket;
+    @FindBy(css = ".name span")
+    public WebElement elementYandexTranslate;
+    @FindBy(css = "[href='/genre']")
+    public WebElement elementYandexMusic;
+    @FindBy(css = "[data-statlog=\"stream.header.storefront\"]")
+    public WebElement elementYandexTv;
 
 
-
-    public YandexNavigationPage(WebDriver driver){
+    public YandexNavigationPage(WebDriver driver) {
+        PageFactory.initElements(driver, this);
         this.driver = driver;
     }
 
@@ -41,24 +52,19 @@ public class YandexNavigationPage {
         getSelectText(text, navigation).click();
     }
 
-    public void waitLink( WebElement element, int timeout){
+    public boolean waitLink(String text, WebElement element, int timeout) {
         final WebDriverWait wait = new WebDriverWait(driver, timeout);
         wait.until(ExpectedConditions.visibilityOf(element));
-
+        if (text.contains(element.getText())) {
+            return true;
+        } else return false;
 
     }
 
-    public void link (){
-        waitLink(elementYandexVideo, 10);
-    }
-
-    public boolean compersionUrl(String url){
+    public boolean compersionUrl(String url) {
         if (driver.getCurrentUrl().contains(url)) {
             return true;
         } else return false;
     }
-
-
-
 
 }
