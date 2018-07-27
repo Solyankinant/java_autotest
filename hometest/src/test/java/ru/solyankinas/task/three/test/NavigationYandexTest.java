@@ -18,7 +18,7 @@ public class NavigationYandexTest extends TestBase {
         Assert.assertTrue(getYandexNavigationPage().compersionUrl("https://yandex.ru/images/"));
 
         getYandexPage().openYandex();
-        getYandexNavigationPage().selectNavigation("Новости");        
+        getYandexNavigationPage().selectNavigation("Новости");
         Assert.assertTrue(getYandexNavigationPage().waitLink("ПОЛИТИКА", getYandexNavigationPage().elementYandexNews,10));
         Assert.assertTrue(getYandexNavigationPage().compersionUrl("https://news.yandex.ru/"));
 

@@ -3,10 +3,7 @@ package ru.solyankinas.task.three.test;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import ru.solyankinas.task.three.pages.PagePcLopTop;
-import ru.solyankinas.task.three.pages.PageYandexMarket;
-import ru.solyankinas.task.three.pages.YandexNavigationPage;
-import ru.solyankinas.task.three.pages.YandexPage;
+import ru.solyankinas.task.three.pages.*;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,6 +13,7 @@ public class TestBase {
     public PagePcLopTop pagePcLopTop;
     public YandexNavigationPage yandexNavigationPage;
     public YandexPage yandexPage;
+    public PageCompariGoods pageCompariGoods;
     ChromeDriver driver;
 
     @BeforeMethod
@@ -28,6 +26,7 @@ public class TestBase {
         pagePcLopTop = new PagePcLopTop(driver);
         yandexNavigationPage = new YandexNavigationPage(driver);
         yandexPage = new YandexPage(driver);
+        pageCompariGoods = new PageCompariGoods(driver);
         getYandexPage().openYandex();
     }
 
@@ -49,6 +48,9 @@ public class TestBase {
     }
     public YandexPage getYandexPage(){
         return yandexPage;
+    }
+    public PageCompariGoods getPageCompariGoods(){
+        return pageCompariGoods;
     }
 
 }

@@ -22,11 +22,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PageCompariGoods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/PageCompariGoods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NavigationYandexTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/NavigationYandexTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+            <state relative-caret-position="17">
+              <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckingResultsPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/CheckingResultsPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,13 +92,15 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/PageYandexMarket.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/CheckingResultsPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/CheckingResultsPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/PagePcLopTop.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/MarketSortByPrice.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/YandexPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/YandexNavigationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/NavigationYandexTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/CompariGoodsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/CheckingResultsPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/PageCompariGoods.java" />
       </list>
     </option>
   </component>
@@ -108,8 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,7 +279,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.NavigationYandexTest">
+  <component name="RunManager" selected="TestNG.ru.solyankinas.task.three.test">
     <configuration default="false" name="HomeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -305,39 +329,6 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="ru.solyankinas.autotest" />
       <option name="MAIN_CLASS_NAME" value="ru.solyankinas.autotest.test.HomeTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="LocationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.solyankinas.autotest.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="hometest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.solyankinas.autotest.test" />
-      <option name="MAIN_CLASS_NAME" value="ru.solyankinas.autotest.test.LocationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -440,6 +431,39 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="ru.solyankinas.task.three.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.solyankinas.task.three.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="hometest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ru.solyankinas.task.three.test" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -720,18 +744,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.HomeTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.LocationTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.CheckingResultsPageTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.MarketSortByPrice.marketSortByPriceTest" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.NavigationYandexTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.CheckingResultsPageTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.MarketSortByPrice.marketSortByPriceTest" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.NavigationYandexTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.ru.solyankinas.task.three.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.NavigationYandexTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.MarketSortByPrice.marketSortByPriceTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.CheckingResultsPageTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.HomeTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.LocationTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ru.solyankinas.task.three.test" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CheckingResultsPageTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.NavigationYandexTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.MarketSortByPrice.marketSortByPriceTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.HomeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -754,40 +778,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NavigationYandexTest - 2018.07.27 at 09h 53m 14s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    <history-entry file="CheckingResultsPageTest - 2018.07.27 at 15h 03m 22s.xml">
+      <configuration name="CheckingResultsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.27 at 09h 55m 55s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    <history-entry file="CheckingResultsPageTest - 2018.07.27 at 15h 04m 13s.xml">
+      <configuration name="CheckingResultsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.27 at 09h 58m 38s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    <history-entry file="CheckingResultsPageTest - 2018.07.27 at 15h 05m 42s.xml">
+      <configuration name="CheckingResultsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.27 at 10h 13m 56s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    <history-entry file="CheckingResultsPageTest - 2018.07.27 at 15h 07m 09s.xml">
+      <configuration name="CheckingResultsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.27 at 10h 28m 13s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    <history-entry file="CheckingResultsPageTest - 2018.07.27 at 15h 10m 37s.xml">
+      <configuration name="CheckingResultsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.27 at 10h 46m 51s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    <history-entry file="CheckingResultsPageTest - 2018.07.27 at 15h 11m 39s.xml">
+      <configuration name="CheckingResultsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.27 at 10h 50m 39s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    <history-entry file="CheckingResultsPageTest - 2018.07.27 at 15h 19m 02s.xml">
+      <configuration name="CheckingResultsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.27 at 10h 53m 38s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    <history-entry file="CheckingResultsPageTest - 2018.07.27 at 15h 20m 21s.xml">
+      <configuration name="CheckingResultsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.27 at 10h 55m 19s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    <history-entry file="CheckingResultsPageTest - 2018.07.27 at 15h 21m 45s.xml">
+      <configuration name="CheckingResultsPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.27 at 10h 56m 31s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    <history-entry file="ru_solyankinas_task_three_test - 2018.07.27 at 15h 48m 12s.xml">
+      <configuration name="ru.solyankinas.task.three.test" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -799,13 +822,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2835821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21002132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -817,6 +839,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -832,14 +855,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/test/HomeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1136,14 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/CheckingResultsPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="66" lean-forward="false" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/ResultSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1169,24 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/MarketSortByPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/autotest/pages/PageLocation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1195,29 +1184,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/PagePcLopTop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/PageYandexMarket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,6 +1196,58 @@
         <state relative-caret-position="415">
           <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/MarketSortByPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/PageYandexMarket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/PagePcLopTop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/CheckingResultsPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/PageCompariGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1233,11 +1255,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/NavigationYandexTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="69" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
