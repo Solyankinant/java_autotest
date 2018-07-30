@@ -12,7 +12,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public class BasePage {
     protected WebDriver driver;
-    protected Select select;
 
     public BasePage (WebDriver driver){
         this.driver = driver;
@@ -21,12 +20,6 @@ public class BasePage {
     public void moveTo(WebElement element) {
         Actions action = new Actions(driver);
         action.moveToElement(element).perform();
-
-    }
-
-    public Select getSelect(WebElement element) {
-        select = new Select(element);
-        return select;
     }
 
     public void waitClick(WebElement locator, WebDriver driver, int timeout) {

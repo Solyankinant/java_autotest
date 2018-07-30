@@ -7,13 +7,12 @@ import org.testng.annotations.Test;
 public class MarketSortByPrice  extends TestBase{
 
     @Test
-    public void marketSortByPriceTest (){
-        getPageYandexMarket().startYandexMarket();
-        getPageYandexMarket().clickCategoty();
-        getPagePcLopTop().sortByPrice("по цене");
-        getPagePcLopTop().priceComparison();
-        Assert.assertTrue(getPagePcLopTop().priceComparison());
-
+    public void marketSortByPriceTest(){
+        getYandexPage().startYandexMarket();
+        getPageYandexMarket().selectCategoryLapTop();
+        getPagePcLopTop().selectSort("по цене");
+        Assert.assertTrue(getPagePcLopTop().checkSortByPrice());
+        Assert.assertTrue(getPagePcLopTop().checkPresenceSortSing());
 
     }
 

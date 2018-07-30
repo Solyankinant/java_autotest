@@ -8,31 +8,32 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import ru.solyankinas.task.three.test.TestBase;
 
 import java.util.List;
 
-public class PageCompariGoods {
-    protected WebDriver driver;
+public class PageCompariGoods extends BasePage{
+    //protected WebDriver driver;
 
-    By listelement = By.cssSelector(".n-snippet-card2__image");
-    By compari = By.cssSelector(".n-user-lists_type_compare");
-    By elementCompar = By.cssSelector(".price");
-    By buttonDeleteList = By.cssSelector(".link__inner");
-    By comparisonField = By.cssSelector("[href=\"https://yandex.ru/support/market/choice-goods/comparison.html\"]");
+    /*private By listelement = By.cssSelector(".n-snippet-card2__image");
+    private By compari = By.cssSelector(".n-user-lists_type_compare");*/
+    private By elementCompar = By.cssSelector(".price");
+    private By buttonDeleteList = By.cssSelector(".link__inner");
+    private By comparisonField = By.cssSelector("[href=\"https://yandex.ru/support/market/choice-goods/comparison.html\"]");
 
-    @FindBy(css = "[href=\"/compare?track=head\"]")
-    protected WebElement selectCompars;
-    @FindBy(css = ".image_name_remove")
-    protected WebElement imageDeletion;
+   /* @FindBy(css = "[href=\"/compare?track=head\"]")
+    protected WebElement selectCompars;*/
+   /* @FindBy(css = ".image_name_remove")
+    protected WebElement imageDeletion;*/
 
 
     public PageCompariGoods(WebDriver driver) {
+        super(driver);
         PageFactory.initElements(driver, this);
-        this.driver = driver;
     }
 
 
-    public void getResultElemaentPage(int count) {
+    /*public void selectItemsToComparison(int count) {
         Actions action = new Actions(driver);
         List<WebElement> listCompari = driver.findElements(compari);
         for (int i = 0; i < count; i++) {
@@ -42,32 +43,31 @@ public class PageCompariGoods {
 
     }
 
-    public void selectCompar() {
+    public void goToComparisonPage() {
         driver.navigate().refresh();
+        moveTo(selectCompars);
         Actions action = new Actions(driver);
-        /*action.moveToElement(crossClose).perform();
-        crossClose.click();*/
         action.moveToElement(selectCompars).perform();
         selectCompars.click();
-    }
+    }*/
 
-    public boolean countElementsCompar(int count) {
-        List<WebElement> listCompari = driver.findElements(elementCompar);
-        if (listCompari.size() == count) {
+    public boolean checkPresenceElementsComparison(int count) {
+        List<WebElement> listComparison = driver.findElements(elementCompar);
+        if (listComparison.size() == count) {
             return true;
         } else return false;
 
     }
 
-    public void buttonDeleteList(String textMenu) {/*
+    public void clickButtonDeleteList(String textMenu) {
         List<WebElement> listComparison = driver.findElements(buttonDeleteList);
         for (int i = 0; i < listComparison.size(); i++){
             if(textMenu.equals(listComparison.get(i).getText())){
                 listComparison.get(i).click();
                 break;
             }
-        }*/
-        imageDeletion.click();
+        }
+        //imageDeletion.click();
     }
 
     /*public boolean checkDeletionComparisonList (String textMenu){
