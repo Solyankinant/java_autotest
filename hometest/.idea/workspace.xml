@@ -21,7 +21,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NavigationYandexTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/NavigationYandexTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="40" column="70" lean-forward="false" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,7 +68,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/YandexMarketPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/CheckingResultsPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/NavigationYandexTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/CompariGoodsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/CheckingResultsPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/PageComparisonProductTest.java" />
@@ -69,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/YandexPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/MarketCheckItemDisplayPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/NavigationYandexTest.java" />
       </list>
     </option>
   </component>
@@ -208,40 +221,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hometest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hometest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solyankinas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -746,17 +725,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ComparisonProductTest - 2018.07.30 at 14h 06m 51s.xml">
-      <configuration name="ComparisonProductTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MarketCheckItemDisplayPage - 2018.07.30 at 13h 49m 51s.xml">
-      <configuration name="MarketCheckItemDisplayPage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MarketCheckItemDisplayPage - 2018.07.30 at 14h 07m 24s.xml">
       <configuration name="MarketCheckItemDisplayPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MarketSortByPrice - 2018.07.30 at 13h 50m 43s.xml">
-      <configuration name="MarketSortByPrice" configurationId="TestNG" />
     </history-entry>
     <history-entry file="MarketSortByPrice - 2018.07.30 at 14h 07m 52s.xml">
       <configuration name="MarketSortByPrice" configurationId="TestNG" />
@@ -764,21 +734,30 @@
     <history-entry file="MarketSortByPrice - 2018.07.30 at 14h 08m 22s.xml">
       <configuration name="MarketSortByPrice" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.30 at 13h 51m 24s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NavigationYandexTest - 2018.07.30 at 13h 57m 04s.xml">
-      <configuration name="NavigationYandexTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="NavigationYandexTest - 2018.07.30 at 14h 09m 39s.xml">
       <configuration name="NavigationYandexTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="NavigationYandexTest - 2018.07.30 at 14h 13m 58s.xml">
       <configuration name="NavigationYandexTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="NavigationYandexTest - 2018.07.30 at 15h 00m 50s.xml">
+      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationYandexTest - 2018.07.30 at 15h 43m 08s.xml">
+      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationYandexTest - 2018.07.30 at 15h 47m 58s.xml">
+      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationYandexTest - 2018.07.30 at 15h 52m 25s.xml">
+      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationYandexTest - 2018.07.30 at 16h 01m 58s.xml">
+      <configuration name="NavigationYandexTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1133,8 +1112,8 @@
         <state relative-caret-position="475">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#376#377#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1144,8 +1123,8 @@
         <state relative-caret-position="391">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1155,7 +1134,7 @@
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1165,7 +1144,7 @@
         <state relative-caret-position="374">
           <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1175,7 +1154,7 @@
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1185,11 +1164,11 @@
         <state relative-caret-position="187">
           <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1179#1180#0" expanded="false" />
+            <element signature="e#1208#1209#0" expanded="false" />
+            <element signature="e#1606#1607#0" expanded="false" />
+            <element signature="e#1645#1646#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1199,7 +1178,7 @@
         <state relative-caret-position="340">
           <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1217,6 +1196,16 @@
         <state relative-caret-position="340">
           <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/NavigationYandexTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" column="70" lean-forward="false" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1224,21 +1213,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/pages/YandexNavigationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
+        <state relative-caret-position="255">
           <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/solyankinas/task/three/test/NavigationYandexTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
