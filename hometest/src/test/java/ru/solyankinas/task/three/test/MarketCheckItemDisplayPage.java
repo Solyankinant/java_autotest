@@ -18,17 +18,6 @@ public class MarketCheckItemDisplayPage extends TestBase {
         getPagePcLopTop().selectNumbersItemsInList("Показывать по 48");
         Assert.assertTrue(getPagePcLopTop().checkDisplayQuantityGoods(48));
 
-
-        //Тест номер 3
-       /* getPageCompariGoods().selectItemsToComparison(2);
-        getPageCompariGoods().goToComparisonPage();
-        Assert.assertTrue(getPageCompariGoods().checkPresenceElementsComparison(2));
-        getPageCompariGoods().clickButtonDeleteList("Удалить список");
-        Assert.assertTrue(getPageCompariGoods().checkDeletionComparisonList("Как добавить товар в сравнение"));*/
-
-
-
-
     }
 
 }

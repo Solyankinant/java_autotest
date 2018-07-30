@@ -14,7 +14,7 @@ public class ComparisonProductTest extends TestBase {
         getPagePcLopTop().goToComparisonPage();
         Assert.assertTrue(getPageCompariGoods().checkPresenceElementsComparison(2));
         getPageCompariGoods().clickButtonDeleteList("Удалить список");
-        Assert.assertTrue(getPageCompariGoods().checkDeletionComparisonList("Как добавить товар в сравнение"));
+        Assert.assertTrue(getPageCompariGoods().checkDeletionComparisonList("Товаров нет."));
     }
 
 }

@@ -9,11 +9,11 @@ import java.util.concurrent.TimeUnit;
 
 
 public class TestBase {
-    public PageYandexMarket pageYandexMarket;
-    public PagePcLopTop pagePcLopTop;
-    public YandexNavigationPage yandexNavigationPage;
-    public YandexPage yandexPage;
-    public PageCompariGoods pageCompariGoods;
+    private PageYandexMarket pageYandexMarket;
+    private PagePcLopTop pagePcLopTop;
+    private YandexNavigationPage yandexNavigationPage;
+    private YandexPage yandexPage;
+    private PageCompariGoods pageCompariGoods;
     ChromeDriver driver;
 
     @BeforeMethod
@@ -32,7 +32,7 @@ public class TestBase {
 
     @AfterMethod
     public void closeBrowser() {
-        //driver.quit();
+        driver.quit();
     }
 
     public PageYandexMarket getPageYandexMarket() {

@@ -11,10 +11,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 
 
-public class YandexNavigationPage {
-    protected WebDriver driver;
+public class YandexNavigationPage extends BasePage{
 
-    By navigation = By.cssSelector("[role=\"navigation\" ] .home-link");
+    private By navigation = By.cssSelector("[role=\"navigation\" ] .home-link");
     @FindBy(css = ".popular .related-serp__title")
     public WebElement elementYandexVideo;
     @FindBy(css = "a[href=\"/collections/user/\"]")
@@ -34,8 +33,8 @@ public class YandexNavigationPage {
 
 
     public YandexNavigationPage(WebDriver driver) {
+        super(driver);
         PageFactory.initElements(driver, this);
-        this.driver = driver;
     }
 
     public WebElement getSelectText(String selectText, By locator) {
