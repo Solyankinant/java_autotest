@@ -2,11 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <parameter name="configFile" value="application.properties"></parameter>
-  <test verbose="1" name="Tests" preserve-order="false">
+  <test verbose="1" name="Tests">
     <classes>
     
-     <class name="HomeTest"/>  
-     <class name="LocationTest"/>       
+     <class name="ComparisonProductTest"/>  
+     <class name="MarketCheckItemDisplayPage"/>  
+     <class name="MarketSortByPrice"/>  
 
     </classes>
   </test>
