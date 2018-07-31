@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 
 public class TestBase {
+
     private PageYandexMarket pageYandexMarket;
     private PagePcLopTop pagePcLopTop;
     private YandexNavigationPage yandexNavigationPage;
@@ -52,5 +53,6 @@ public class TestBase {
     public PageCompariGoods getPageCompariGoods(){
         return pageCompariGoods;
     }
+
 
 }
