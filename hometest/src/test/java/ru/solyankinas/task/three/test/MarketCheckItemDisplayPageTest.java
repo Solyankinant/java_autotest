@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class MarketCheckItemDisplayPage extends TestBase {
+public class MarketCheckItemDisplayPageTest extends TestBase {
 
 
     @Test

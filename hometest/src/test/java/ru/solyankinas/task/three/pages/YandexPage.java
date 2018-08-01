@@ -1,13 +1,12 @@
 package ru.solyankinas.task.three.pages;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
 public class YandexPage extends BasePage {
-
     @FindBy(css = "[data-id='market']")
     protected WebElement pageYandexMarket;
 
@@ -23,5 +22,4 @@ public class YandexPage extends BasePage {
     public void startYandexMarket() {
         pageYandexMarket.click();
     }
-
 }

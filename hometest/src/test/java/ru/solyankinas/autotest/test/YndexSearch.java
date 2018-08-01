@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class HomeTest extends BaseTest {
+public class YndexSearch extends BaseTest {
 
     @Test
     public void fieldSeach() {

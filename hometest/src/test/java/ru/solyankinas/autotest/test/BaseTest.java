@@ -3,15 +3,13 @@ package ru.solyankinas.autotest.test;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import ru.solyankinas.autotest.pages.ApplicationManager;
-import ru.solyankinas.autotest.pages.PageLocation;
-import ru.solyankinas.autotest.pages.PageSearch;
-import ru.solyankinas.autotest.pages.ResultSearch;
+import ru.solyankinas.autotest.pages.*;
 
 import java.util.concurrent.TimeUnit;
 
 
 public class BaseTest {
+
     ChromeDriver driver;
 
     protected ApplicationManager appManager;

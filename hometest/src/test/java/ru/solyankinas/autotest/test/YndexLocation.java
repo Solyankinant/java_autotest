@@ -3,7 +3,7 @@ package ru.solyankinas.autotest.test;
 
 import org.testng.annotations.Test;
 
-public class LocationTest extends BaseTest {
+public class YndexLocation extends BaseTest {
 
 
     @Test

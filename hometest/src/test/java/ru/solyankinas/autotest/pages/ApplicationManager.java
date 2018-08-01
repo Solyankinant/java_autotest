@@ -2,9 +2,12 @@ package ru.solyankinas.autotest.pages;
 
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import ru.solyankinas.autotest.pages.PageLocation;
+import ru.solyankinas.autotest.pages.PageSearch;
+import ru.solyankinas.autotest.pages.ResultSearch;
 
 public class ApplicationManager {
-    protected ChromeDriver driver;
+    public ChromeDriver driver;
 
     public ResultSearch resultSearch;
     public PageSearch pageSearch;
@@ -25,4 +28,5 @@ public class ApplicationManager {
     public PageLocation getPageLocation() {
         return pageLocation;
     }
+
 }

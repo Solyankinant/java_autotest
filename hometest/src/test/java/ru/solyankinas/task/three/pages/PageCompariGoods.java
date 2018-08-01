@@ -9,7 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class PageCompariGoods extends BasePage {
-
     private By elementCompar = By.cssSelector(".price");
     private By buttonDeleteList = By.cssSelector(".link__inner");
     private By comparisonField = By.cssSelector("div[class=\"title title_size_18\"]");
@@ -44,6 +43,4 @@ public class PageCompariGoods extends BasePage {
             return true;
         } else return false;
     }
-
-
 }

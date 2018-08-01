@@ -4,7 +4,7 @@ package ru.solyankinas.task.three.test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MarketSortByPrice  extends TestBase{
+public class MarketSortByPriceTest extends TestBase{
 
     @Test
     public void marketSortByPriceTest(){

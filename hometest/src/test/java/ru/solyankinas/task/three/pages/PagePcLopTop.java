@@ -1,5 +1,6 @@
 package ru.solyankinas.task.three.pages;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,9 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class PagePcLopTop extends BasePage {
-
     @FindBy(css = "[role='listbox']")
     protected WebElement buttonSelectSizeList;
     @FindBy(css = "[href=\"/compare?track=head\"]")
@@ -121,5 +120,4 @@ public class PagePcLopTop extends BasePage {
             return true;
         } else return false;
     }
-
 }

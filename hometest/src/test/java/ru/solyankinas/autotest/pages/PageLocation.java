@@ -9,11 +9,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageLocation {
-    protected WebDriver driver;
+    public WebDriver driver;
     @FindBy(id = "city__front-input")
-    protected WebElement fildInputLocation;
+    public WebElement fildInputLocation;
     @FindBy(xpath = "//li[1]")
-    protected WebElement linkCity;
+    public WebElement linkCity;
 
 
     public PageLocation(WebDriver driver) {
@@ -35,6 +35,4 @@ public class PageLocation {
                 ExpectedConditions.elementToBeClickable(locator)));
         locator.click();
     }
-
-
 }
