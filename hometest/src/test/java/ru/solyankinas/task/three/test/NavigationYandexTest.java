@@ -38,7 +38,7 @@ public class NavigationYandexTest extends TestBase {
 
         getYandexPage().openYandex();
         getYandexNavigationPage().selectNavigation("Переводчик");
-        asert.assertTrue(getYandexNavigationPage().waitLink("Переводчи", getYandexNavigationPage().elementYandexTranslate, 10));
+        asert.assertTrue(getYandexNavigationPage().waitLink("Переводчик", getYandexNavigationPage().elementYandexTranslate, 10));
         asert.assertTrue(getYandexNavigationPage().compersionUrl("https://translate.yandex.ru/"));
 
         getYandexPage().openYandex();
