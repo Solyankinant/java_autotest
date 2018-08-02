@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="114.368" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="AndersenTest"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\ASolyankin\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="f2364e545caa3287"/>
+    <property name="POM_ARTIFACTID" value="hometest"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;c:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;c:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;c:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="hometest"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\ASOLYA~1\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="ASolyankin"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="ru"/>
+    <property name="JOB_BASE_NAME" value="AndersenTest"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/AndersenTest/36/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#36"/>
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="363e0e25fa3a4b27cd8b4a4b5c0349c6c1cbd835"/>
+    <property name="LOCALAPPDATA" value="C:\Users\ASolyankin\AppData\Local"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="USERNAME" value="ASolyankin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="36"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\AutoTest\Maven\apache-maven-3.5.0\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="RU"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="c:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.3"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/AndersenTest/36/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\ASOLYA~1\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="COMMANDER_DRIVE" value="C:"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="c231a3b5e6f06d4733c8c9cb434f05d571bcaf6e"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/AndersenTest/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="COMMANDER_EXE" value="C:\totalcmd\TOTALCMD64.EXE"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="BELL-MAIN"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="c:\Program Files\Java\jdk1.8.0_171"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\ASolyankin"/>
+    <property name="USERDNSDOMAIN" value="BELL-MAIN.BELLINTEGRATOR.RU"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="WDP-00001"/>
+    <property name="POM_GROUPID" value="ru.solyankinas.autotest"/>
+    <property name="user.home" value="C:\Users\ASolyankin"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-AndersenTest-36"/>
+    <property name="JENKINS_SERVER_COOKIE" value="f2364e545caa3287"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\ASolyankin"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\AutoTest\Maven\apache-maven-3.5.0/bin;c:\Program Files\Java\jdk1.8.0_171/bin;c:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\AutoTest\Maven\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\AutoTest\allurecommandline;&quot;C:\Program Files\Java\jdk1.8.0_171\bin&quot;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\ASolyankin\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\AutoTest\Maven\apache-maven-3.5.0"/>
+    <property name="java.class.path" value="C:\Users\ASolyankin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;c:\AutoTest\Maven\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar;c:\AutoTest\Maven\apache-maven-3.5.0/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main c:\AutoTest\Maven\apache-maven-3.5.0 C:\Users\ASolyankin\.jenkins\war\WEB-INF\lib\remoting-3.23.jar C:\Users\ASolyankin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\ASolyankin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 59086"/>
+    <property name="Path" value="c:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\AutoTest\Maven\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\AutoTest\allurecommandline;&quot;C:\Program Files\Java\jdk1.8.0_171\bin&quot;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="c:\Program Files\Java\jdk1.8.0_171/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="c:\AutoTest\Maven\apache-maven-3.5.0"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASOLYA~1\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\ASolyankin\.jenkins"/>
+    <property name="PATH+MAVEN" value="c:\AutoTest\Maven\apache-maven-3.5.0/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/AndersenTest/36/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="MAVEN_OPTS" value="-Dfile.encoding=UTF-8"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\andersen\java_autotest\hometest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/AndersenTest/"/>
+    <property name="LOGONSERVER" value="\\PNZ-DC01"/>
+    <property name="USERDOMAIN" value="BELL-MAIN"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="c:\AutoTest\Maven\apache-maven-3.5.0"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="36"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="2a07"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="GIT_COMMIT" value="c231a3b5e6f06d4733c8c9cb434f05d571bcaf6e"/>
+    <property name="=C:" value="c:\AutoTest"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="COMMANDER_INSTANCE" value="1"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\ASolyankin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\ASolyankin\.jenkins\workspace\AndersenTest"/>
+    <property name="maven3.interceptor.common" value="C:\Users\ASolyankin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="COMMANDER_PATH" value="C:\totalcmd"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="COMMANDER_INI" value="C:\Users\ASolyankin\AppData\Roaming\GHISLER\wincmd.ini"/>
+    <property name="GIT_URL" value="https://github.com/Solyankinant/java_autotest"/>
+  </properties>
+  <testcase name="testComparisonProduct" classname="ru.solyankinas.task.three.test.ComparisonProductTest" time="22.66">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at ru.solyankinas.task.three.test.ComparisonProductTest.testComparisonProduct(ComparisonProductTest.java:15)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 14672
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="marketCheckItemDisplayPage" classname="ru.solyankinas.task.three.test.MarketCheckItemDisplayPageTest" time="16.977"/>
+  <testcase name="marketSortByPriceTest" classname="ru.solyankinas.task.three.test.MarketSortByPriceTest" time="14.734"/>
+  <testcase name="testNavigationYandex" classname="ru.solyankinas.task.three.test.NavigationYandexTest" time="29.952"/>
+</testsuite>

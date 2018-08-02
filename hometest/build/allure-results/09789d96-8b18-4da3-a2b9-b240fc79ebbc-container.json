@@ -1,0 +1,1 @@
+{"uuid":"09789d96-8b18-4da3-a2b9-b240fc79ebbc","name":"ru.solyankinas.task.three.test.TestBase.startBrowser","description":"","start":1533202239029,"stop":1533202243973,"children":["93697ec7-a9b7-4f73-b2d0-4418120ec60d"],"befores":[{"name":"startBrowser","status":"passed","stage":"finished","description":"","start":1533202239029,"stop":1533202243973}]}

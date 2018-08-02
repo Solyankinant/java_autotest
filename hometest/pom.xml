@@ -52,7 +52,7 @@
                     <systemProperties>
                         <property>
                             <name>allure.results.directory</name>
-                            <value>build/allure-results</value>
+                            <value>build\allure-results</value>
                         </property>
                     </systemProperties>
                 </configuration>
