@@ -20,6 +20,7 @@ public class PageCompariGoods extends BasePage {
     }
 
     public boolean checkPresenceElementsComparison(int count) {
+        driver.navigate().refresh();
         List<WebElement> listComparison = driver.findElements(elementCompar);
         if (listComparison.size() == count) {
             return true;
