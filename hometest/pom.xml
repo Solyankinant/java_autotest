@@ -12,18 +12,7 @@
         <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
         <aspectj.version>1.8.10</aspectj.version>
         <allure-testng.version>2.6.0</allure-testng.version>
-    </properties>
-
-   <!-- <reporting>
-        <excludeDefaults>true</excludeDefaults>
-        <plugins>
-            <plugin>
-                <groupId>ru.yandex.qatools.allure</groupId>
-                <artifactId>allure-maven-plugin</artifactId>
-                <version>2.6</version>
-            </plugin>
-        </plugins>
-    </reporting>-->
+    </properties>   
 
 
     <build>
@@ -38,11 +27,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-            <!--<plugin>
-                <groupId>ru.yandex.qatools.allure</groupId>
-                <artifactId>allure-maven-plugin</artifactId>
-                <version>2.6</version>
-            </plugin>-->
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -69,17 +54,7 @@
                     </dependency>
                 </dependencies>
             </plugin>
-
-            <!--<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.19.1</version>
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
-            </plugin>-->
+            
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
@@ -98,13 +73,6 @@
             <artifactId>allure-testng</artifactId>
             <version>2.6.0</version>
         </dependency>
-
-        <!--<dependency>
-            <groupId>ru.yandex.qatools.allure</groupId>
-            <artifactId>allure-maven-plugin</artifactId>
-            <version>2.6</version>
-        </dependency>-->
-
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
