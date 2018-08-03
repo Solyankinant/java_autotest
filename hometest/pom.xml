@@ -57,7 +57,7 @@
                     <systemProperties>
                         <property>
                             <name>allure.results.directory</name>
-                            <value>C:\andersen\java_autotest\hometest\build\allure-results</value>
+                            <value>C:\Users\ASolyankin\.jenkins\workspace\AndersenTest\allure-results</value>
                         </property>
                     </systemProperties>
                 </configuration>
